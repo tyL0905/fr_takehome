@@ -1,0 +1,10 @@
+version: '3'
+services:
+  fr-takehome:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - PORT=8080
+
+
